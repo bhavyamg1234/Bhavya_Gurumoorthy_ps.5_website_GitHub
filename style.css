@@ -1,7 +1,28 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: blueviolet;
 }
 canvas {
   display: block;
+  padding: 20px;
+  margin: auto;
+}
+h1{
+  font-family: "Apple Chancery",cursive;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+h2{
+  font-family: "Impact",fantasy;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+
+}
+
+h3{
+  
 }
