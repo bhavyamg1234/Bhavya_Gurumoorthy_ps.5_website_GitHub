@@ -75,3 +75,10 @@ a {
   display:block;
   text-align: center;
 }
+
+h4{
+  font-family: "Jazz LET", fantasy;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
