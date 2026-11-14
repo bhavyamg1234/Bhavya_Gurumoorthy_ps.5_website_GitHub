@@ -1,28 +1,77 @@
-html, body {
+@font-face {
+  font-family: "MyCustomFont";
+  src: url(./Fonts/SunandMoon.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
   margin: 0;
   padding: 0;
-  background-color: blueviolet;
+  background-color: blanchedalmond;
 }
 canvas {
   display: block;
   padding: 20px;
   margin: auto;
 }
-h1{
-  font-family: "Apple Chancery",cursive;
-  font-weight: 700;
+
+canvas.home  {
+  display: block;
+  padding: 20px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+
+div.ex-text {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+}
+h5{
+  font-family: "MyCustomFont";
+  
+}
+h1 {
+  color: black;
+  font-family: "Luminari", fantasy;
+  font-weight: 900;
   font-style: normal;
   text-align: center;
 }
 
 h2{
-  font-family: "Impact",fantasy;
-  font-weight: 500;
+  color: black;
+  font-family: "Jazz LET", fantasy;
+  font-weight: 700;
   font-style: normal;
+  font-size: larger;
   text-align: center;
-
 }
 
-h3{
-  
+h3 {
+  color: black;
+  font-family: "Jazz LET", fantasy;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: "Jazz LET", fantasy;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+}
+
+a {
+  color: brown;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  display:block;
+  text-align: center;
 }
