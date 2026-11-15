@@ -1,7 +1,7 @@
 
 
 function setup() {
-  canvas = createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
   canvas.parent("sketch-holder");
   rectMode(CENTER);
   angleMode(DEGREES);
@@ -110,7 +110,7 @@ function draw() {
   noStroke()
   rect(200,235.0394,83.2721,114.9499)
 
-  
+  canvas2("L5Hw5")
 
 
 
