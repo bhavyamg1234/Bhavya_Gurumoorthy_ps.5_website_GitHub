@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+canvas {
+  display: block;
+    display: block;
+  padding: 20px;
+  margin: auto;
+}
+
+canvas.home  {
+  display: block;
+  padding: 20px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+h1{
+ color: black;
+ font-family: "Luminari", fantasy;
+ font-weight: 900;
+ font-style: normal;
+ text-align: center;
+}
+
+p{
+  color: black;
+  font-family: "Jazz LET", fantasy;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+}
