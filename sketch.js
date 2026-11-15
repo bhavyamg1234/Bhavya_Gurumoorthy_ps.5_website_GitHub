@@ -110,7 +110,7 @@ function draw() {
   noStroke()
   rect(200,235.0394,83.2721,114.9499)
 
-  canvas2("L5Hw5")
+  
 
 
 

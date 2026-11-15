@@ -1,14 +1,13 @@
-@font-face {
-  font-family: "MyCustomFont";
-  src: url(./Fonts/SunandMoon.ttf);
-}
-@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Yarndings+12&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   background-color: blanchedalmond;
 }
+
 canvas {
   display: block;
   padding: 20px;
@@ -28,10 +27,16 @@ div.ex-text {
   max-width: 600px;
   margin: auto;
 }
-h5{
-  font-family: "MyCustomFont";
-  
+
+h5 {
+  color:black
+  font-family: "Yarndings 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
+
+
 h1 {
   color: black;
   font-family: "Luminari", fantasy;
