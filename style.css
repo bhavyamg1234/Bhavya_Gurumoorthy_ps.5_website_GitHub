@@ -28,7 +28,13 @@ div.ex-text {
   margin: auto;
 }
 
-
+h5 {
+  font-family: "Yarndings 12", system-ui;
+  font-weight: 4000;
+  font-size: xx-large;
+  font-style: normal;
+  text-align: center;
+}
 
 
 h1 {
